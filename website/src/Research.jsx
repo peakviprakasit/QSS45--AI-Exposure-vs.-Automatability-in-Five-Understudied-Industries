@@ -176,7 +176,7 @@ export default function Research() {
               Across <strong>12,487</strong> job postings in five understudied industries, AI{' '}
               <strong>exposure</strong> saw a noticeable rise in 2024 vs. 2026, yet how{' '}
               <strong>automatable</strong> that work is barely moved. Two questions usually collapsed
-              into a single &ldquo;AI&nbsp;risk&rdquo metric, measured separately.
+              into a single “AI risk” metric, measured separately.
             </p>
             <div className="cta">
               <a href={PAPER_URL} className="btn"><span>Read the paper</span></a>
@@ -219,7 +219,7 @@ export default function Research() {
       >
         <p className="prose reveal">
           Public debate runs two ideas together: that 1) a job <em>involves</em> AI, and 2) that a job could
-          be <em>performed by</em> AI. They are very different measures, sometimes pointing at opposite directions. I measure each separately,
+          be <em>performed by</em> AI. They are very different measures, sometimes pointing in opposite directions. I measure each separately,
           from employer demand (LinkedIn job postings), in five sectors underrepresented in existing studies.
         </p>
         <p className="prose reveal">
