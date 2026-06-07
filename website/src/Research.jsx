@@ -220,7 +220,7 @@ export default function Research() {
         <p className="prose reveal">
           Public debate runs two ideas together: that 1) a job <em>involves</em> AI, and 2) that a job could
           be <em>performed by</em> AI. They are very different measures, sometimes pointing at opposite directions. I measure each separately,
-          from employer demand (LinkedIN job postings), in five sectors underrepresented in existing studies.
+          from employer demand (LinkedIn job postings), in five sectors underrepresented in existing studies.
         </p>
         <p className="prose reveal">
           By folding the two into a single &ldquo;AI&nbsp;risk&rdquo; score, a job being <em>reshaped around</em> new tools becomes indistinguishable
