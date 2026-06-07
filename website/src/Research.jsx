@@ -344,12 +344,12 @@ export default function Research() {
           <div className="step exposure">
             <span className="snum">03</span><h4>Label exposure</h4>
             <p>Does the role involve AI?</p>
-            <span className="tech">gpt-5.4 · →</span>
+            <span className="tech">gpt-5.4</span>
           </div>
           <div className="step auto">
             <span className="snum">04</span><h4>Label automatability</h4>
             <p>Could its tasks be automated?</p>
-            <span className="tech">gpt-5.4-mini · ↑</span>
+            <span className="tech">gpt-5.4-mini</span>
           </div>
           <div className="step">
             <span className="snum">05</span><h4>Stratify</h4>
@@ -399,7 +399,7 @@ export default function Research() {
         <p className="prose reveal">
           Between snapshots, mean AI exposure rose from <strong>0.061 to 0.098</strong>{' '}
           (p&nbsp;=&nbsp;2.6×10⁻⁸); mean automatability was statistically unchanged
-          (<strong>0.334 → 0.324</strong>, p&nbsp;=&nbsp;0.31). The rise concentrates in knowledge work as reflect by
+          (<strong>0.334 to 0.324</strong>, p&nbsp;=&nbsp;0.31). The rise concentrates in knowledge work as reflect by
           Patent/IP (+0.104), Legal (+0.068), Pharma (+0.045), but Farming and Insurance dipped.
         </p>
 
@@ -466,7 +466,7 @@ export default function Research() {
             src="/figures/fig09_movement_map.html"
             height={560}
             caption="By industry: each arrow is one sector's 2024 to 2026 shift: large horizontal moves (exposure), little vertical (automatability)."
-            source="Exposure → · automatability ↑"
+            source="Exposure · automatability"
           />
           <Embed
             fig="6"
