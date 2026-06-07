@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import HeroTech from './HeroTech.jsx'
 
-const PAPER_URL = '/final_report.pdf' // place your compiled PDF at website/public/final_report.pdf
+const PAPER_URL = '/final_report.pdf'
 const REPO_URL = 'https://github.com/peakviprakasit/QSS45--AI-Exposure-vs.-Automatability-in-Five-Understudied-Industries'
 
 const SECTIONS = [
@@ -169,8 +169,8 @@ export default function Research() {
           <div className="hero-lead">
             <p className="eyebrow">QSS 45 · Final Project · Dartmouth College</p>
             <h1>
-              Jobs are being built <span className="ac1">around</span> AI&nbsp;— not{' '}
-              <span className="ac2">replaced</span> by it.
+              Jobs are increasingly <span className="ac1">integrating</span> AI&nbsp;, not{' '}
+              <span className="ac2">being replaced</span> by it.
             </h1>
             <p className="lede">
               Across <strong>12,487</strong> job postings in five understudied industries, AI{' '}
