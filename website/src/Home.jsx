@@ -116,9 +116,9 @@ export default function Home() {
                 independent. So &ldquo;AI exposure&rdquo; and &ldquo;automation risk&rdquo; shouldn&rsquo;t be measured by one metric.
               </p>
               <div className="proj-stats">
-                <span><b>+60%</b> mean exposure</span>
-                <span><b className="rust">relatively flat</b> automatability</span>
-                <span><b>r = −0.11</b> independence</span>
+                <span><b>Over 60% Increase</b> mean exposure</span>
+                <span><b className="rust">Relatively Flat</b> automatability</span>
+                <span><b>r = −0.11</b> Independence</span>
               </div>
               <Link to="/research" className="btn"><span>Read the full study</span></Link>
             </div>
