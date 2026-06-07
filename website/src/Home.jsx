@@ -55,14 +55,13 @@ export default function Home() {
           <p className="eyebrow">Dartmouth College · Quantitative Social Science · &rsquo;27</p>
           <h1>Parama <span className="ac1">Viprakasit</span></h1>
           <p className="lede">
-            I study how <strong>technology reshapes work</strong> — combining statistics, machine
-            learning, and NLP to ask empirical questions about labor, AI, and opportunity. Most
-            recently: measuring how AI <em>exposure</em> and task <em>automatability</em> moved across
-            five industries between 2024 and 2026.
+            Welcome to my personal website, where I present my most recent research projects. Most recently, I examined how <strong>technology reshapes work</strong> : combining statistics, machine
+            learning, and NLP to ask questions about labor, AI, and opportunity. Specifically, I measured how AI <em>exposure</em> and task <em>automatability</em> moved across
+            five understudied industries in <em>2024</em> vs. <em>2026</em>.
           </p>
           <div className="cta">
             <Link to="/research" className="btn"><span>View my research</span></Link>
-            <a href="#contact" className="btn ghost"><span>Get in touch</span></a>
+            <a href="#contact" className="btn ghost"><span>Contact</span></a>
           </div>
         </div>
       </header>
@@ -72,11 +71,11 @@ export default function Home() {
           <header className="sec-head reveal">
             <span className="sec-no" aria-hidden="true">01</span>
             <p className="eyebrow">About</p>
-            <h2>A quantitative social scientist who likes hard data questions.</h2>
+            <h2>A Quantitative Social Science Major, Econ Concentration at Dartmouth College</h2>
           </header>
           <div className="sec-body">
             <p className="prose reveal">
-              I&rsquo;m a Dartmouth junior in Quantitative Social Science, where I combine statistical methods
+              I&rsquo;m a Dartmouth class of 2027 student majoring in Quantitative Social Science with a focus on Financial and Labor Economics. My work combines statistical methods
               and computational tools to understand social phenomena. My interests span data science,
               labor economics, and machine learning — especially how technology shapes work and
               opportunity. Outside research I&rsquo;m usually hiking the White Mountains, reading science
