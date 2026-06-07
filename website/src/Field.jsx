@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './field.css'
 
 const PAPER_URL = '/final_report.pdf'
-const REPO_URL = '#'
+const REPO_URL = 'https://github.com/peakviprakasit/QSS45--AI-Exposure-vs.-Automatability-in-Five-Understudied-Industries'
 const SECTIONS = [['question', 'Question'], ['data', 'Data'], ['method', 'Method'], ['results', 'Results']]
 
 function useActive() {

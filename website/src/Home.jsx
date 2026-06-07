@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import HeroTech from './HeroTech.jsx'
 
 // TODO: fill these in
-const GITHUB = '#'        // your GitHub profile URL
-const LINKEDIN = '#'      // your LinkedIn URL
+const GITHUB = 'https://github.com/peakviprakasit/QSS45--AI-Exposure-vs.-Automatability-in-Five-Understudied-Industries'  // project repo
+const LINKEDIN = 'https://www.linkedin.com/in/parama-viprakasit-5aa5a3207/'
 const EMAIL = 'mailto:parama.viprakasit.27@dartmouth.edu'
 
 function useScrolled() {

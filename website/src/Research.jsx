@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import HeroTech from './HeroTech.jsx'
 
 const PAPER_URL = '/final_report.pdf' // place your compiled PDF at website/public/final_report.pdf
-const REPO_URL = '#'                   // your GitHub repository URL
+const REPO_URL = 'https://github.com/peakviprakasit/QSS45--AI-Exposure-vs.-Automatability-in-Five-Understudied-Industries'
 
 const SECTIONS = [
   ['question', 'Question'],
