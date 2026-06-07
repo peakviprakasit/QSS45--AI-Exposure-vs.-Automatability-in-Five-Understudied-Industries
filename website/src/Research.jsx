@@ -223,7 +223,7 @@ export default function Research() {
           from employer demand (LinkedIn job postings), in five sectors underrepresented in existing studies.
         </p>
         <p className="prose reveal">
-          By folding the two into a single &ldquo;AI&nbsp;risk&rdquo; score, a job being <em>reshaped around</em> new tools becomes indistinguishable
+          By folding the two into a single "AI risk" score, a job being <em>reshaped around</em> new tools becomes indistinguishable
           from one being <em>eliminated by</em> it. Rather than rate occupations from expert task checklists,
           this study reads both signals off the language of the postings
           employers actually write (job descriptions), in industries that are not heavily studied by current literature.
