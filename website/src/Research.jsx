@@ -176,7 +176,7 @@ export default function Research() {
               Across <strong>12,487</strong> job postings in five understudied industries, AI{' '}
               <strong>exposure</strong> saw a noticeable rise in 2024 vs. 2026, yet how{' '}
               <strong>automatable</strong> that work is barely moved. Two questions usually collapsed
-              into a single AI risk metric, measured separately.
+              into a single &ldquo;AI&nbsp;risk&rdquo metric, measured separately.
             </p>
             <div className="cta">
               <a href={PAPER_URL} className="btn"><span>Read the paper</span></a>
