@@ -1,51 +1,39 @@
-/* =====================================================================
-   AI EXPOSURE × AUTOMATABILITY — a QSS 45 research microsite
-   Editorial data-journalism on cool Dartmouth green-grey paper.
-   Dartmouth green (#00693E) structures; forest green for headings & dark
-   blocks; rust marks the "automatable / replaced" idea; slate is neutral
-   data ink. Organizing metaphor: two perpendicular axes — exposure (→) is
-   not automatability (↑). Fraunces display · Hanken Grotesk text ·
-   IBM Plex Mono for data labels.
-   ===================================================================== */
-
 :root {
-  /* ---- Dartmouth green ---- */
-  --green:      #00693E;   /* Dartmouth green — primary accent */
+  --green:      #00693E;
   --green-700:  #00693E;
-  --green-d:    #00532f;   /* hover / deeper */
-  --green-ink:  #12312b;   /* Dartmouth forest — headings, dark blocks */
-  --green-dd:   #0c241c;   /* deepest — footer */
-  --green-300:  #6aa98a;   /* light green on dark */
-  --green-soft: #e0eae2;   /* faint green wash */
-  /* ---- gold — ONLY the automatability / replacement idea ---- */
+  --green-d:    #00532f;
+  --green-ink:  #12312b;  
+  --green-dd:   #0c241c;  
+  --green-300:  #6aa98a;  
+  --green-soft: #e0eae2;  
+
   --rust:       #a8861c;
   --rust-d:     #806413;
   --rust-300:   #d9b24c;
   --rust-soft:  #f1ecd6;
-  /* ---- slate — neutral / data ink ---- */
+
   --slate:      #44525f;
   --slate-300:  #8a96a1;
   --slate-soft: #eceeef;
-  /* ---- light neutral gray paper (near-white) ---- */
-  --paper:      #f5f6f6;   /* page — white / very light gray */
-  --paper-2:    #eceeed;   /* alternating section */
-  --card:       #ffffff;   /* panels / figure frames */
-  --ink:        #18221c;   /* body */
-  --muted:      #4f544e;   /* secondary text */
-  --faint:      #7d817b;   /* tertiary / captions */
-  --rule:       #e2e4e2;   /* hairline */
-  --rule-2:     #ccd0cd;   /* stronger hairline */
-  /* JSX aliases */
+
+  --paper:      #f5f6f6;  
+  --paper-2:    #eceeed;  
+  --card:       #ffffff;  
+  --ink:        #18221c; 
+  --muted:      #4f544e;  
+  --faint:      #7d817b;  
+  --rule:       #e2e4e2; 
+  --rule-2:     #ccd0cd;  
+
   --teal: var(--green); --orange: var(--rust); --line: var(--rule);
   --bg: var(--paper); --bg2: var(--paper-2); --bg3: var(--paper-2);
-  /* ---- type ---- */
-  /* single typeface — Lato throughout (serif/sans/mono all alias to it) */
+
   --serif: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --sans:  'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --mono:  var(--sans);   /* mono retired site-wide — aliased to sans for safety */
   /* ---- metrics ---- */
   --max: 1240px;
-  --measure: 80ch;  /* comfortable reading max; wide enough to fill the body column on expanded screens */
+  --measure: 80ch; 
   --r: 3px;
   --shadow:    0 1px 2px rgba(18,40,28,.05), 0 12px 30px -22px rgba(18,40,28,.22);
   --shadow-sm: 0 1px 1px rgba(18,40,28,.04), 0 6px 16px -14px rgba(18,40,28,.18);
@@ -64,7 +52,7 @@ body {
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern" 1, "liga" 1;
 }
-/* very subtle paper grain — fixed, non-distracting */
+
 body::before {
   content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: .4;
   mix-blend-mode: multiply;
@@ -79,21 +67,16 @@ a:hover { color: var(--green-d); }
 section[id], header[id] { scroll-margin-top: 72px; }
 ::selection { background: var(--green); color: #fff; }
 
-/* keyboard focus — visible, custom */
+
 a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible {
   outline: 2px solid var(--green); outline-offset: 3px; border-radius: 2px;
 }
 
-/* reveal-on-scroll */
+
 .reveal { opacity: 0; transform: translateY(12px); transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
 .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce){ .reveal { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } }
 
-/* =====================================================================
-   LABEL SYSTEM
-   .eyebrow — structural section labels (sans small-caps, tracked, green)
-   .meta    — data labels: figure IDs, ledger keys, specs (mono, slate)
-   ===================================================================== */
 .eyebrow {
   font-family: var(--sans); font-weight: 600; font-size: .73rem;
   letter-spacing: .18em; text-transform: uppercase; color: var(--green); margin: 0;
@@ -103,9 +86,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
   letter-spacing: .08em; text-transform: uppercase; color: var(--slate); margin: 0;
 }
 
-/* =====================================================================
-   MASTHEAD — Dartmouth green bar, translucent, raised (depth not a flat block)
-   ===================================================================== */
 .nav { position: sticky; top: 0; z-index: 50;
   background: #00532f;
   box-shadow: 0 6px 22px -12px rgba(7,36,22,.55), inset 0 1px 0 rgba(255,255,255,.12);
@@ -156,10 +136,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
 .read-chip .rc-sec .rc-n { color: var(--rust); margin-right: 5px; font-weight: 700; font-variant-numeric: tabular-nums; }
 @media (max-width: 700px){ .read-chip { display: none; } }
 
-/* =====================================================================
-   HERO — editorial split: argument left, research dossier right.
-   Faint exposure×automatability quadrant motif behind.
-   ===================================================================== */
 .hero { position: relative; overflow: hidden; padding: 100px 0 88px; color: #cfe6d8;
   background:
     radial-gradient(720px 460px at 80% 24%, rgba(0,150,92,.22) 0%, transparent 58%),
@@ -240,9 +216,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
 .dossier .findings dd.flat { color: #ecca78; }
 @media (max-width: 880px){ .hero-grid { grid-template-columns: 1fr; gap: 38px; } .dossier { max-width: 440px; } }
 
-/* =====================================================================
-   BUTTONS — custom rule-slide hovers, no stock fills
-   ===================================================================== */
 .cta { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
 .btn { position: relative; display: inline-flex; align-items: center; gap: .55ch; overflow: hidden;
   font-family: var(--sans); font-weight: 600; font-size: .92rem; letter-spacing: .01em;
@@ -263,9 +236,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
 .btn.ghost-light::after { background: rgba(255,255,255,.12); }
 .btn.ghost-light:hover { color: #fff; border-color: rgba(255,255,255,.72); }
 
-/* =====================================================================
-   SECTIONS — ghosted folio, alternating paper, distinct heads
-   ===================================================================== */
 .section { padding: 92px 0; position: relative; }
 .section.tint { background: var(--paper-2); }
 .section + .section, .section.tint { border-top: 1px solid var(--rule); }
@@ -290,9 +260,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
   .section h2 { max-width: 24ch; font-size: clamp(1.7rem, 5vw, 2.3rem); }
 }
 
-/* =====================================================================
-   PROSE
-   ===================================================================== */
 .prose { font-size: 1.08rem; line-height: 1.75; color: var(--ink); max-width: var(--measure); margin: 0; }
 /* in the editorial 2-col body, paragraphs run flush to the box/figure width */
 .sec-body .prose { max-width: none; }
@@ -307,9 +274,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
   max-width: 28ch; margin: 46px 0; padding-left: 26px; border-left: 2px solid var(--rust); }
 .pullquote .hl { font-style: normal; background: linear-gradient(transparent 62%, var(--green-soft) 62%); padding: 0 .06em; }
 
-/* =====================================================================
-   §01 — GLOSSARY PANELS + perpendicular-axes cue
-   ===================================================================== */
 .dimensions { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 38px; }
 /* concept plate — editorial annotation: accent spine, header row + rule, signal footnote */
 .glossary { position: relative; background: var(--card); border: 1px solid var(--rule);
@@ -349,10 +313,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
   letter-spacing: .02em; color: var(--rust-d); }
 @media (max-width: 520px){ .axes-cue { grid-template-columns: 1fr; } .axes-cue .ac-y { writing-mode: horizontal-tb; transform: none; border-right: 0; border-bottom: 2px solid var(--rust); padding: 8px; } }
 
-/* =====================================================================
-   §02 — DATASET LEDGER + method-warning note
-   ===================================================================== */
-/* dataset inventory — an editorial data ledger (field-notebook table) */
 .ledger { background: var(--card); border: 1px solid var(--rule); border-radius: 4px;
   box-shadow: 0 1px 2px rgba(20,36,26,.05), 0 20px 44px -32px rgba(18,42,28,.45); margin-top: 36px; overflow: hidden; }
 .ledger-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
@@ -376,10 +336,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
 .notebox p strong { color: var(--rust-d); font-weight: 700; }
 @media (max-width: 560px){ .notebox { grid-template-columns: 1fr; gap: 6px; } }
 
-/* =====================================================================
-   §03 — METHOD PIPELINE + model-spec chips
-   ===================================================================== */
-/* method pipeline — a connected timeline of numbered stages */
 .pipeline { display: grid; grid-template-columns: repeat(6, 1fr); position: relative; margin-top: 46px; }
 .pipeline::before { content: ''; position: absolute; top: 15px; left: 9%; right: 9%; height: 2px; z-index: 0;
   background: linear-gradient(90deg, var(--rule-2), var(--green-300) 30%, var(--rust-300) 64%, var(--rule-2)); }
@@ -408,10 +364,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
 .spec b { color: var(--green-ink); font-weight: 700; }
 .spec.rust b { color: var(--rust-d); }
 
-/* =====================================================================
-   FIGURES — academic plates, mono ID strip, quiet hover lift
-   ===================================================================== */
-/* figure plate — editorial: label over a hairline, framed chart, academic caption */
 .fig { margin: 44px 0 0; }
 .fig-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
   padding: 0 3px 9px; border-bottom: 1.5px solid var(--green-ink); }
@@ -458,9 +410,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
 .keyfind p { margin: 8px 0 0; font-size: .95rem; color: var(--muted); line-height: 1.58; max-width: 42ch; }
 @media (max-width: 680px){ .keyfinds { grid-template-columns: 1fr; gap: 26px; } }
 
-/* =====================================================================
-   §05 — CLOSING (deep Dartmouth forest) + colophon line
-   ===================================================================== */
 .takeaway { position: relative; overflow: hidden; padding: 108px 0; color: #d3e0d6;
   border-top: 3px solid var(--green);
   background:
@@ -492,9 +441,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
 .colophon a { color: #bcd0bf; }
 .colophon a:hover { color: #fff; }
 
-/* =====================================================================
-   FOOTER — back matter of a paper
-   ===================================================================== */
 .footer { background: var(--green-dd); color: #c7d6c4; padding: 8px 0 44px; border-top: 1px solid rgba(255,255,255,.08); }
 .footer .note { font-family: var(--serif); font-style: italic; font-size: 1.06rem; line-height: 1.5; color: #d2ddce; max-width: 56ch; margin: 0 0 30px; padding-top: 40px; }
 .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 28px; padding-top: 26px; border-top: 1px solid rgba(255,255,255,.14); }
@@ -507,9 +453,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .btn-sm:focus-visible
 @media (max-width: 720px){ .foot-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 480px){ .foot-grid { grid-template-columns: 1fr; } }
 
-/* =====================================================================
-   HOME — featured project  (About reuses the shared .sec-grid spread)
-   ===================================================================== */
 .project { display: grid; grid-template-columns: 1.12fr .88fr; gap: 36px; align-items: stretch;
   background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--green);
   border-radius: var(--r); padding: 32px; box-shadow: var(--shadow); margin-top: 30px; }
