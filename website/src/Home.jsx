@@ -134,7 +134,7 @@ export default function Home() {
         <HeroTech variant="band" />
         <div className="container">
           <p className="eyebrow reveal">03 · Contact</p>
-          <p className="big reveal">For more information or any inquiries, please feel free to reach out via.</p>
+          <p className="big reveal">Feel free to reach out via email, or visit my GitHub and LinkedIn page.</p>
           <div className="doc-actions reveal">
             <a href={EMAIL} className="btn light"><span>Email me</span></a>
             <a href={GITHUB} target="_blank" rel="noopener" className="btn ghost-light"><span>GitHub</span></a>
