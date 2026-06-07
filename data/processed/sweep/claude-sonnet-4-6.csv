@@ -1,0 +1,101 @@
+p_exposure,p_automatable,rationale,raw_ok,job_id
+0.05,0.72,"Routine document processing, data entry, filing; no AI involvement but highly repetitive tasks.",1,3906202183
+0.05,0.35,Manual lab work with physical samples; routine but requires hands-on dexterity and judgment.,1,3905254228
+0.07,0.1,Maintenance area manager role is hands-on industrial/physical work with minimal AI involvement or automation vulnerability.,1,3895550294
+0.1,0.15,Traditional grain marketing/sales role; relationship-driven with market analysis but no AI/ML tools mentioned.,1,3906200470
+0.05,0.1,"Field sales/agronomy role focused on relationship-building, market evaluation, and client development; minimal AI involvement.",1,3888821714
+0.08,0.45,Logistics coordination involves human judgment and relationships; tracking/scheduling tasks have moderate automation potential.,1,3905299409
+0.07,0.1,"Field agriculture management role requiring physical farm visits, relationship-building; minimal AI use or automation vulnerability.",1,3903475910
+0.05,0.03,Emergency veterinary medicine requires hands-on clinical judgment; no AI involvement mentioned.,1,3889759495
+0.1,0.15,"Field agronomy role focused on trials, sales training, and crop evaluation; minimal AI involvement, requires physical presence.",1,3900942928
+0.05,0.2,"Manual monitoring, maintenance, and data recording at a physical wastewater plant; minimal AI involvement.",1,3905854526
+0.05,0.25,"Manual food safety inspection role; physical, compliance-based tasks with low AI involvement.",1,9f3dae60136c
+0.03,0.1,Cooking requires physical dexterity and judgment; no AI involvement in food preparation role.,1,351a84addf7f
+0.2,0.15,Primarily process management and cross-functional leadership; some data reporting but no AI/ML work mentioned.,1,8af56e0e8b7e
+0.05,0.55,Teller/lobby role is cash-handling and client-facing; minimal AI use but transaction tasks are automatable.,1,eea3867f79cf
+0.05,0.15,Sales/relationship role with no AI mention; human judgment and client relationships resist automation.,1,7d8bbd5f8f5c
+0.05,0.45,"Retail parts specialist role; no AI involvement, but customer interaction and physical tasks limit automation.",1,e0f606d1a2f9
+0.08,0.1,"Field-based environmental remediation engineering requires physical site work, judgment, and regulatory expertise—low AI/automation vulnerability.",1,e094f6a71469
+0.05,0.15,"Manual manufacturing floor leadership role; physical coordination and human management resist automation, no AI involvement.",1,9ca9f5e9bc3f
+0.07,0.35,Sales/ISP role with no AI mention; some routine tasks but requires human relationship-building.,1,5cd3ab0c3a55
+0.04,0.35,"Manual freight receiving and inventory; physical handling limits automation, no AI involvement.",1,d9099f71cf65
+0.1,0.45,"Routine customer service and payments partially automatable; human judgment, bilingual communication, and complex coverage explanations reduce risk.",1,3884438190
+0.1,0.55,"Routing/triage work is rule-based and repetitive, but requires human judgment in customer communication.",1,3904935459
+0.05,0.15,Physical field inspections of boilers/pressure vessels require hands-on expertise; minimal AI involvement.,1,3904722294
+0.1,0.35,Traditional claims adjusting; some judgment/investigation required but document review and data gathering are automatable.,1,3900947165
+0.35,0.1,Manages technology platforms and strategy; leadership/partnership role unlikely to be automated.,1,3884919161
+0.72,0.1,"Role heavily involves data systems and analytics but requires strategic leadership, stakeholder management, and judgment.",1,3898162867
+0.1,0.25,"Auto appraiser role involves physical inspections and judgment; limited AI use, but some routine assessment tasks exist.",1,3901357011
+0.05,0.3,Traditional sales/relationship role; no AI tools mentioned. Human persuasion resists automation but lead gen tasks are partially automatable.,1,3905831703
+0.1,0.2,"Traditional ERP development role; no AI/ML involvement, but requires complex problem-solving and customization.",1,3904932799
+0.1,0.08,"Benefits consulting role focused on client relationships and strategy; minimal AI involvement, complex human judgment required.",1,3904362586
+0.25,0.1,Senior underwriting leadership role; data-driven mention but core tasks are strategic judgment and relationship management.,1,989f28775547
+0.1,0.08,"Construction safety consulting requires physical site visits, human judgment, and client relationships—low AI exposure and automation risk.",1,7082edb64865
+0.1,0.15,"Security/loss prevention role requiring physical presence, critical thinking, and human judgment on-site.",1,eebf295833f6
+0.2,0.35,"Financial analyst role; standard analysis work, limited AI mention, some automation vulnerability in routine financial tasks.",1,6bb7bb0b6df7
+0.05,0.04,"Occupational therapy requires hands-on patient care, clinical judgment, and physical fabrication; minimal AI involvement.",1,2c2a88a53486
+0.1,0.2,"Real estate asset management involves judgment, relationships, and financial analysis; minimal AI exposure indicated.",1,ff5ee1036c35
+0.2,0.3,eBusiness coordination and claims management involve judgment; limited AI content visible in posting.,1,9b0b18d50910
+0.2,0.35,Underwriting involves judgment and risk assessment; some AI tools used but core work requires human expertise.,1,de28f0b8dcc4
+0.35,0.4,Uses Power BI/Excel for pricing analysis; some ML exposure possible but mostly traditional analytics work.,1,3067fd54cadf
+0.72,0.12,"Role explicitly uses AI/data analytics; but complex consulting, client relationships, and judgment resist automation.",1,64494a1e89bc
+0.05,0.04,"Legal litigation role requiring complex judgment, investigation, and courtroom advocacy; no AI involvement mentioned.",1,3900066913
+0.1,0.25,Administrative/coordination role; some data analysis but no AI/ML work; human relationship-building resists automation.,1,3895210680
+0.1,0.15,"Legal associate role focused on research, drafting, client meetings; minimal AI use, but judgment-heavy tasks resist automation.",1,3884436762
+0.07,0.35,"Traditional legal assistant role; minimal AI exposure, but document handling tasks have some automation vulnerability.",1,3889709873
+0.15,0.1,"Architecture/implementation role using traditional enterprise software; minimal AI/ML, highly complex human judgment required.",1,3901352958
+0.05,0.55,Rule-based filing tasks are automatable; minimal AI/ML involvement in this clerical legal role.,1,3898164442
+0.05,0.08,"Litigation attorney role requires complex legal reasoning, writing, and judgment; minimal AI involvement expected.",1,3901378560
+0.05,0.08,"Legal advisory role requiring complex judgment, client relations, and ERISA expertise; minimal AI involvement or automation vulnerability.",1,3900956928
+0.05,0.3,Traditional legal support role; no AI mentioned. Some tasks automatable but judgment and communication resist automation.,1,3901941349
+0.05,0.45,"Administrative HR coordination role; no AI usage, but data entry and processing tasks have moderate automation potential.",1,3905282953
+0.1,0.25,Contract drafting/negotiation requires human judgment; minimal AI involvement indicated in posting.,1,fb5c7c7e1764
+0.07,0.15,"Project management, engineering internship, paralegal, contract roles; minimal AI involvement, require human judgment.",1,8d111a9d4ad3
+0.07,0.25,"Legal assistant role involves human judgment, trial support, and complex coordination; minimal AI involvement.",1,677bda209fd1
+0.08,0.45,Claims adjusting involves judgment and communication; some routine processing steps are automatable but complex decisions are not.,1,a2663ced045e
+0.05,0.08,"Legal defense work requires human judgment, courtroom advocacy, and complex reasoning; minimal AI involvement.",1,42f5b13de03d
+0.05,0.07,"Legal counsel role involves complex judgment, policy, and advocacy—minimal AI involvement, hard to automate.",1,0cda90c0d09a
+0.05,0.08,"Family law attorney role involves human judgment, advocacy, and client relationships; minimal AI involvement or automation vulnerability.",1,9bbbe3ce12f1
+0.05,0.05,"Clinical psychology role requiring human judgment, therapy, and inmate interaction; no AI/ML involvement.",1,33f12ee2e640
+0.72,0.15,"Role explicitly includes leveraging AI in processes; but core work is complex legal drafting/negotiation, hard to automate.",1,e9447938e48c
+0.07,0.08,"Associate Attorney role in legal defense; complex legal judgment, low AI involvement and low automatability.",1,7be65e6756fe
+0.05,0.08,"Patent law requires complex legal judgment, technical chemistry expertise, and client strategy—not AI/ML work, hard to automate.",1,3905255318
+0.1,0.15,"Traditional legal paralegal work; no AI tools mentioned; requires judgment, research, and trial support.",1,3901636016
+0.15,0.08,"Legal IP work requires human judgment, advocacy, and client counsel; minimal AI involvement indicated.",1,3886471794
+0.1,0.15,"Traditional IP networking role; no AI/ML work. Complex troubleshooting, customer coordination resist automation.",1,3903476353
+0.15,0.35,IP systems/workflow management role; some data integrity work but no explicit AI/ML; partially routine but requires judgment.,1,3905694001
+0.05,0.08,"IP attorney role involves legal judgment, drafting, negotiation—complex human tasks not AI-centric or easily automated.",1,3890892681
+0.2,0.1,"Intelligence operations/EW training support; human judgment, clearances, and physical presence dominate; minimal AI involvement.",1,3905664643
+0.08,0.15,"Patent prosecution and legal analysis require expert judgment; minimal AI involvement, but some document drafting is automatable.",1,3886459420
+0.05,0.05,"Senior legal partner role requiring strategic counsel, client relationships, and business development; minimal AI involvement.",1,3884921825
+0.15,0.05,"IP litigation attorney role; technical background preferred but core work is legal advocacy, not AI/ML.",1,3895484767
+0.05,0.04,Human therapeutic relationship is core; no AI tools mentioned; highly interpersonal and judgment-driven work.,1,1b441c5a8082
+0.2,0.1,"Alliance/partnership management role; relationship-building, strategy, leadership—minimal AI use, highly human-centric tasks.",1,65142982cc75
+0.05,0.35,"Retail sales role with physical customer interaction; no AI tasks, but routine enough for partial automation.",1,21f9ede35e3f
+0.05,0.2,"Patient-facing optical assistant role; human interaction and dexterity-heavy tasks resist automation, minimal AI involvement.",1,7e14d75dc4d6
+0.07,0.62,PBM operations support involves repetitive data entry and processing tasks; minimal AI involvement indicated.,1,c9b651b87570
+0.1,0.2,"Credit analyst role involves judgment, relationships, and risk assessment—low AI exposure and moderate automation resistance.",1,0cd5fff671a0
+0.05,0.06,"Legal/ERISA attorney role; complex judgment, client advocacy, agency representation—minimal AI involvement or automation risk.",1,6ab5e150663b
+0.25,0.1,"IT business analyst role; minimal AI/ML work, but complex consulting and advisory tasks resist automation.",1,0f114d3c4c99
+0.72,0.65,Query vetting and data annotation for AI training; repetitive labeling tasks but requires Japanese language judgment.,1,d5d318a4e232
+0.12,0.1,"Patent prosecution requires expert legal/scientific judgment and writing; minimal AI involvement, hard to automate.",1,b7536269704c
+0.15,0.1,"Role uses data analysis but focuses on human-led process improvement, lean/six sigma; not AI-centric, highly judgment-dependent.",1,3889717206
+0.97,0.08,Role explicitly involves building ML pipelines and NGS workflows; requires expert judgment and creativity.,1,3904709960
+0.95,0.15,Explicitly a Data Scientist/Statistician role building ML/statistical models; requires creative problem-solving hard to automate.,1,3898177352
+0.1,0.2,Pharma/biotech company description; no specific role tasks mentioned to assess AI use or automatability.,1,3884435831
+0.35,0.08,"Uses in silico tools and data analysis, but core work is hands-on lab synthesis requiring expert judgment.",1,3906235373
+0.08,0.15,"Traditional procurement management role; requires negotiation, leadership, relationships—not AI work, not easily automated.",1,3901392428
+0.1,0.15,"Medical oversight, risk/benefit assessments, and regulatory judgments require expert clinical reasoning; minimal AI involvement indicated.",1,3901348665
+0.04,0.35,Manual warehouse/inspection role; no AI involvement. Physical tasks limit full automation but data entry is automatable.,1,3885842845
+0.1,0.2,"D365 F&O functional lead role; ERP implementation/configuration work, requires human judgment and stakeholder collaboration.",1,3884441210
+0.03,0.65,Cashier role is routine transaction-based work; no AI involvement mentioned.,1,3905325938
+0.15,0.15,"Sales/account management role; minimal AI use, requires human relationship-building and territory management.",1,9e0f13a82579
+0.1,0.15,"Lab-based forensic DNA work is hands-on, physical, and judgment-intensive; minimal AI involvement indicated.",1,5c52727a5ef4
+0.02,0.15,"Manual physical tasks (cleaning, dishwashing) require dexterity; no AI involvement whatsoever.",1,c74b60db76f0
+0.05,0.2,"Field sampling, chemical data collection; hands-on environmental work, minimal AI involvement, physical tasks resist automation.",1,ffb1cb8cecae
+0.05,0.15,"Sales/BD role focused on relationships, pipeline, and closing deals; minimal AI involvement, human judgment critical.",1,72e7c76e667e
+0.05,0.15,Physical inspection and construction QC work requires on-site human judgment; minimal AI involvement.,1,939f6ef9d1d8
+0.1,0.05,"Experimental physics research involving novel material synthesis and characterization; highly creative, hands-on lab work unlikely to be automated.",1,fd880adbac56
+0.15,0.1,"Water engineering role; complex technical/design work, minimal AI involvement indicated in posting.",1,90e57c7d1ebc
+0.25,0.15,Analytical sciences role involves lab/experimental work; some data analysis but primarily hands-on scientific methods.,1,3df7a7c935b9
+0.15,0.1,"Analytical policy/advisory role with complex judgment; minimal AI use, highly human-intensive decision-making.",1,c26a66a023aa

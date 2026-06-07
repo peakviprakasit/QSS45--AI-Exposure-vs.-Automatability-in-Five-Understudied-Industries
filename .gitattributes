@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Notebooks: treat as text, but don't try to merge them line-by-line
+*.ipynb text

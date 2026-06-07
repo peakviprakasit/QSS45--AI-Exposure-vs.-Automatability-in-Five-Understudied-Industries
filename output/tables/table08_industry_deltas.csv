@@ -1,0 +1,21 @@
+industry_key,industry_label,metric,2024,2026,delta_2026_minus_2024
+farming_forestry,"Farming, Ranching and Forestry",mean_exposure_score,0.07710743801652893,0.055766666666666666,-0.021340771349862266
+insurance,Insurance,mean_exposure_score,0.0902,0.07919999999999999,-0.01100000000000001
+legal_services,Legal Services,mean_exposure_score,0.031766666666666665,0.0999,0.06813333333333334
+patent_ip,Patent Analysis and IP Research,mean_exposure_score,0.04698924731182796,0.1512,0.10421075268817204
+pharma_chem,Pharmaceutical / Chemical Manufacturing,mean_exposure_score,0.06026666666666666,0.10506666666666667,0.044800000000000006
+farming_forestry,"Farming, Ranching and Forestry",pct_exposed,4.132231404958678,2.3333333333333335,-1.7988980716253447
+insurance,Insurance,pct_exposed,4.0,3.3333333333333335,-0.6666666666666665
+legal_services,Legal Services,pct_exposed,0.0,6.333333333333334,6.333333333333334
+patent_ip,Patent Analysis and IP Research,pct_exposed,0.0,10.333333333333334,10.333333333333334
+pharma_chem,Pharmaceutical / Chemical Manufacturing,pct_exposed,2.0,6.0,4.0
+farming_forestry,"Farming, Ranching and Forestry",mean_automatable_score,0.3190909090909091,0.3353,0.016209090909090895
+insurance,Insurance,mean_automatable_score,0.3493,0.35723333333333335,0.007933333333333348
+legal_services,Legal Services,mean_automatable_score,0.35536666666666666,0.3592666666666667,0.0039000000000000146
+patent_ip,Patent Analysis and IP Research,mean_automatable_score,0.31430107526881723,0.29766666666666663,-0.016634408602150597
+pharma_chem,Pharmaceutical / Chemical Manufacturing,mean_automatable_score,0.30866666666666664,0.27066666666666667,-0.03799999999999998
+farming_forestry,"Farming, Ranching and Forestry",pct_automatable,23.140495867768596,26.0,2.859504132231404
+insurance,Insurance,pct_automatable,25.666666666666664,23.333333333333332,-2.333333333333332
+legal_services,Legal Services,pct_automatable,31.333333333333336,33.0,1.6666666666666643
+patent_ip,Patent Analysis and IP Research,pct_automatable,23.655913978494624,19.0,-4.655913978494624
+pharma_chem,Pharmaceutical / Chemical Manufacturing,pct_automatable,21.333333333333336,16.0,-5.333333333333336

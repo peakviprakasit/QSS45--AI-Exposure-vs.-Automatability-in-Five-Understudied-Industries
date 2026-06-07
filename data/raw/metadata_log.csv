@@ -1,0 +1,6 @@
+industry_key,industry_label,n_postings,date_min,date_max,n_bins_covered,missing_bins,sparse_bins,sources,notes
+pharma_chem,Pharmaceutical / Chemical Manufacturing,806,2026-05-11,2026-05-18,1,"copilot_chatgpt,gpt3_era,gpt4_harvey,pre_gpt3","copilot_chatgpt,gpt3_era,gpt4_harvey,gpt4o_present,pre_gpt3",linkedin,OK
+legal_services,Legal Services,924,2026-05-08,2026-05-18,1,"copilot_chatgpt,gpt3_era,gpt4_harvey,pre_gpt3","copilot_chatgpt,gpt3_era,gpt4_harvey,gpt4o_present,pre_gpt3",linkedin,OK
+farming_forestry,"Farming, Ranching and Forestry",1070,2026-04-11,2026-05-18,1,"copilot_chatgpt,gpt3_era,gpt4_harvey,pre_gpt3","copilot_chatgpt,gpt3_era,gpt4_harvey,gpt4o_present,pre_gpt3",linkedin,OK
+insurance,Insurance,1170,2026-05-07,2026-05-18,1,"copilot_chatgpt,gpt3_era,gpt4_harvey,pre_gpt3","copilot_chatgpt,gpt3_era,gpt4_harvey,gpt4o_present,pre_gpt3",linkedin,OK
+patent_ip,Patent Analysis and IP Research,1273,2026-04-30,2026-05-18,1,"copilot_chatgpt,gpt3_era,gpt4_harvey,pre_gpt3","copilot_chatgpt,gpt3_era,gpt4_harvey,gpt4o_present,pre_gpt3",linkedin,OK

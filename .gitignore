@@ -1,0 +1,68 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Logs
+*.log
+scraping.log
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Large data + cached artifacts
+# (Raw scrapes are reproducible from 01_scraping; large Kaggle import too)
+data/external/
+data/processed/bert_embeddings.npy
+data/processed/bert_embeddings_index.csv
+data/processed/bertopic_model/
+data/processed/topic_assignments.csv
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# Chromedriver cache
+.wdm/
+
+# Selenium webdriver downloads
+chromedriver*
+
+# Node / Vite (website build artifacts)
+node_modules/
+dist/
+build/
+*.local
+
+# Editor / agent backups
+*.bak
+*.codexbak
+*.wording_bak
+
+# Stray empty repo — the project root itself is the git repo
+QSS45_Final_Project_GITHUB/
+
+# Raw LinkedIn scrapes — large + ToS/privacy; reproducible from code/01_scraping.
+# Keep only the small provenance log as a "data ref".
+data/raw/*
+!data/raw/metadata_log.csv
+
+# Cleaned full-text corpus (57MB of posting text) — reproducible from raw via
+# code/02_preprocessing; the small scored panels below are enough to reproduce results.
+data/processed/postings_clean.csv
+
+# Paper source — maintained on Overleaf, submitted as PDF (Canvas + website).
+# The .tex/.bib here was a redundant copy, so it's not tracked.
+report/

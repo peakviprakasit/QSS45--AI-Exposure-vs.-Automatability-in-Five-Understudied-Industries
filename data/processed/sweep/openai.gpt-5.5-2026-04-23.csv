@@ -1,0 +1,101 @@
+p_exposure,p_automatable,rationale,raw_ok,job_id
+0.02,0.62,"Clerical export paperwork, data entry, document review and filing; no AI mentioned, tasks are fairly routine.",1,3906202183
+0.02,0.55,"No AI/ML mentioned; routine SOP-based lab preparation, calibration, documentation, and cleaning are partially automatable.",1,3905254228
+0.02,0.18,Maintenance manager posting has no AI/data tasks; managerial maintenance coordination is not highly routine or easily automated.,1,3895550294
+0.04,0.18,"Sales, relationship management, and market advisory role; no AI/ML mentioned, core tasks require judgment and interpersonal work.",1,3906200470
+0.04,0.18,"Sales, market development, and field evaluation role; no AI mentioned, with relationship-driven tasks not easily automated.",1,3888821714
+0.02,0.45,"Logistics coordination uses tracking/scheduling systems, but no AI; routine elements exist alongside customer communication and troubleshooting.",1,3905299409
+0.02,0.18,"Agricultural field management emphasizes grower relationships, monitoring, contracts, training, and records; no AI or ML mentioned.",1,3903475910
+0.01,0.04,"Emergency veterinary care involves hands-on clinical judgment; posting mentions no AI, ML, or data-science work.",1,3889759495
+0.06,0.18,"Agronomy role involves field trials, observations, liaison and training; no AI/ML mentioned, tasks require judgment and relationships.",1,3900942928
+0.01,0.35,"No AI mentioned; routine monitoring/data recording automatable, but physical maintenance and plant operations limit replacement.",1,3905854526
+0.02,0.25,No AI or data-science work mentioned; routine compliance checks partly automatable but require physical inspection and judgment.,1,9f3dae60136c
+0.01,0.25,"Hospital cook role follows recipes and production sheets; no AI mentioned, physical varied food preparation limits automation.",1,351a84addf7f
+0.08,0.25,"Quality management and reporting role with data quality focus, but no AI/ML; leadership and collaboration limit automation.",1,8af56e0e8b7e
+0.02,0.48,"No AI work mentioned; transaction processing is routine, but client conversations and relationship guidance require human interaction.",1,eea3867f79cf
+0.02,0.22,Flooring sales/business development role with no AI mention; relationship-building and client outreach are only partly automatable.,1,7d8bbd5f8f5c
+0.02,0.42,"Retail parts service uses standard systems, not AI; many transaction/lookup tasks routine, but physical stocking and customer service remain.",1,e0f606d1a2f9
+0.03,0.18,"No AI/data-science work mentioned; environmental remediation engineering involves site-specific judgment, coordination, and technical leadership.",1,e094f6a71469
+0.02,0.25,"Manufacturing lead coordinates people and production; no AI/ML mentioned, and supervisory judgment limits automation.",1,9ca9f5e9bc3f
+0.02,0.25,"No AI or data-science duties mentioned; commission-based sales work implied, partly routine but relationship-driven.",1,5cd3ab0c3a55
+0.01,0.35,No AI mentioned; receiving and inventory tasks are routine but include varied physical loading and unloading.,1,d9099f71cf65
+0.03,0.35,"No AI mentioned; many service and payment tasks are routine, but licensed client advising requires judgment and communication.",1,3884438190
+0.02,0.62,"No AI/ML mentioned; ticket triage, routing, queue monitoring, and correspondence are fairly routine and automatable.",1,3904935459
+0.02,0.18,"Field equipment inspections require physical presence, technical judgment, and client communication; no AI or data-science work mentioned.",1,3904722294
+0.02,0.38,"No AI work mentioned; claims processing has routine document tasks but requires investigation, judgment, negotiation, and legal interaction.",1,3900947165
+0.08,0.12,"Technology leadership role building internal tools; no AI mentioned, and strategic cross-functional management is nonroutine.",1,3884919161
+0.18,0.12,"Data transformation and analysis role, but no explicit AI/ML; leadership and stakeholder coordination are nonroutine.",1,3898162867
+0.02,0.42,"Auto appraisal involves inspections and standardized estimating, but posting mentions no AI or data-science work.",1,3901357011
+0.01,0.35,"Sales role with no AI/data work; some outreach and pitching routine, but relationship-based selling limits automation.",1,3905831703
+0.03,0.25,"PeopleSoft enterprise development with analysis and collaboration; no AI/ML mentioned, tasks are technical but not mostly routine.",1,3904932799
+0.03,0.16,"Benefits consulting and client strategy/project management; no AI mentioned, work is interpersonal and judgment-heavy.",1,3904362586
+0.08,0.1,"Executive underwriting leadership with data-driven strategy mentioned, but no AI/ML work; core tasks are strategic and judgment-heavy.",1,989f28775547
+0.02,0.18,"Construction safety risk consulting requires expert judgment and client interaction; no AI, ML, or data science mentioned.",1,7082edb64865
+0.02,0.25,Security/investigation role with no AI mention; human judgment and physical presence reduce automatable routine work.,1,eebf295833f6
+0.03,0.42,Financial analyst posting mentions no AI/ML; spreadsheet/reporting tasks may be partly routine but require judgment.,1,6bb7bb0b6df7
+0.02,0.12,"Hands-on clinical evaluation and individualized therapy; no AI mentioned, though documentation and scheduling are partly automatable.",1,2c2a88a53486
+0.03,0.25,Asset management posting shows no AI/ML work; tasks likely analytical and judgment-based with some automatable reporting.,1,ff5ee1036c35
+0.03,0.25,No AI or data-science mentioned; coordination and initiative leadership are only partly routine.,1,9b0b18d50910
+0.03,0.42,Insurance underwriter role shows no AI work; underwriting has structured risk assessment but requires judgment and relationships.,1,de28f0b8dcc4
+0.18,0.55,"Uses Excel/Power BI for pricing analysis; no AI/ML mentioned, but reporting and analysis are partly automatable.",1,3067fd54cadf
+0.65,0.15,"Explicitly mentions using advanced data and AI; managerial consulting, client relationships, and complex judgment reduce automatability.",1,64494a1e89bc
+0.02,0.12,"Complex legal investigations and litigation; no AI/ML mentioned, substantial judgment and advocacy required.",1,3900066913
+0.04,0.42,No AI/ML mentioned; role mixes routine reporting/scheduling with relationship-heavy coordination and judgment.,1,3895210680
+0.03,0.32,"No AI mentioned; legal research and drafting are partly automatable, but client work and legal judgment remain significant.",1,3884436762
+0.03,0.42,No AI/data work mentioned; legal assistant tasks include routine document/admin work but require case support and coordination.,1,3889709873
+0.03,0.22,"IT architecture and deployment role; no AI/ML mentioned, with complex implementation and leadership tasks.",1,3901352958
+0.02,0.55,"No AI mentioned; e-filing, calendaring, records retrieval are routine, though compliance judgment and liaison duties remain.",1,3898164442
+0.02,0.18,"Litigation attorney role requiring legal judgment and writing; no AI/data work mentioned, only partially automatable.",1,3901378560
+0.02,0.18,"No AI work mentioned; complex legal advising, drafting, and client-specific problem solving are only partially automatable.",1,3900956928
+0.03,0.42,"No AI mentioned; legal research, drafting, compliance, and records are partly automatable but require judgment and communication.",1,3901941349
+0.02,0.45,"HR benefits administration uses databases and routine processing, but no AI work and significant coordination/employee-facing duties.",1,3905282953
+0.07,0.38,No AI/ML mentioned; contract tracking/drafting support is partly routine but negotiation and legal coordination require judgment.,1,fb5c7c7e1764
+0.02,0.28,"No AI/ML mentioned; roles involve project, contract, legal operations with some document workflow automation potential.",1,8d111a9d4ad3
+0.02,0.32,No AI or data-science work mentioned; legal assistant tasks include some routine support but trial work requires judgment.,1,677bda209fd1
+0.02,0.45,"No AI mentioned; claims processing is partly rules-based but requires communication, judgment, and case resolution.",1,a2663ced045e
+0.02,0.25,Attorney role with no AI mention; legal research/drafting partly automatable but litigation judgment and advocacy remain human.,1,42f5b13de03d
+0.02,0.18,"Senior legal counsel role with no AI duties; complex judgment, advocacy, and policy work limit automation.",1,0cda90c0d09a
+0.02,0.18,"Family law attorney role; no AI mentioned, and litigation/client advocacy require judgment beyond routine automation.",1,9bbbe3ce12f1
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,33f12ee2e640
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,e9447938e48c
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,7be65e6756fe
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3905255318
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3901636016
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3886471794
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3903476353
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3905694001
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3890892681
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3905664643
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3886459420
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3884921825
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3895484767
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,1b441c5a8082
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,65142982cc75
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,21f9ede35e3f
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,7e14d75dc4d6
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,c9b651b87570
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,0cd5fff671a0
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,6ab5e150663b
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,0f114d3c4c99
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,d5d318a4e232
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,b7536269704c
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3889717206
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3904709960
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3898177352
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3884435831
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3906235373
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3901392428
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3901348665
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3885842845
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3884441210
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3905325938
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,9e0f13a82579
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,5c52727a5ef4
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,c74b60db76f0
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,ffb1cb8cecae
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,72e7c76e667e
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,939f6ef9d1d8
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,fd880adbac56
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,90e57c7d1ebc
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,3df7a7c935b9
+,,"PARSE_FAIL: RateLimitError: Error code: 429 - {'error': {'message': 'ExceededBudget: End User=35db1485-18d0-47bc-aa77-bf675d11b745 over budget. Spend=2.002374, Budget=2.0', 'type': 'budget_exceeded', 'param': None, 'code': '429'}}",0,c26a66a023aa

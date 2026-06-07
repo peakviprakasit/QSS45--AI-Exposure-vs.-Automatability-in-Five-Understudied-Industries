@@ -1,0 +1,101 @@
+p_exposure,p_automatable,rationale,raw_ok,job_id
+0.01,0.79,"Document processing, data entry, filing, and routine coordination; no AI/ML or analytics mentioned.",1,3906202183
+0.03,0.78,"Routine sample prep, calibration, documentation, and cleaning; no AI/ML duties mentioned.",1,3905254228
+0.02,0.18,"Maintenance area management in manufacturing; no AI/data-science duties shown, and managerial coordination is only partly automatable.",1,3895550294
+0.03,0.28,"Sales, relationship management, and advisory grain marketing; little AI/data-science work, moderate routine tasks but strong human judgment needed.",1,3906200470
+0.05,0.18,"Sales development, market evaluation, client onboarding, and strategy are human-centric; only basic data/forecasting tasks appear.",1,3888821714
+0.03,0.57,"Logistics coordination and customer communication; little AI/data-science work, but scheduling/tracking tasks are partly software-automatable.",1,3905299409
+0.03,0.19,"Agricultural field management, grower relations, travel, training, and monitoring dominate; little evidence of AI or mostly automatable tasks.",1,3903475910
+0.01,0.06,"Emergency veterinary care is hands-on, judgment-heavy clinical work; posting mentions no AI, ML, or data-science tasks.",1,3889759495
+0.04,0.18,"Field agronomy, trials, evaluations, training, and liaison work; little explicit AI/data science, substantial nonroutine human judgment.",1,3900942928
+0.03,0.41,"Plant operations and maintenance with monitoring/recording; little AI involvement, but physical troubleshooting limits full automation.",1,3905854526
+0.01,0.38,"Food safety compliance/support role; no AI or analytics mentioned. Some inspections/checklists are routine, but physical oversight limits automation.",1,9f3dae60136c
+0.01,0.62,"Cooking follows menus and recipes with repetitive prep, but physical kitchen work and supervision limit full automation.",1,351a84addf7f
+0.17,0.29,"Quality/process leadership with reporting and data quality, but no explicit AI/ML; cross-functional managerial judgment limits automation.",1,8af56e0e8b7e
+0.03,0.48,"Branch client service and cash handling; no AI work mentioned, but many transactions are standardized and partly self-service.",1,eea3867f79cf
+0.03,0.34,Sales/business development role; no AI or analytics mentioned. Relationship-building and field sales reduce automability.,1,7d8bbd5f8f5c
+0.01,0.56,"Retail parts sales and stocking; no AI/data tasks. Many routine transactions, but customer service and physical store work limit automation.",1,e0f606d1a2f9
+0.03,0.12,"Environmental remediation engineering role; posting mentions technical leadership and projects, not AI/data-science, and core work is non-routine.",1,e094f6a71469
+0.01,0.42,"Manufacturing lead directs people, meetings, priorities, and process improvement; little AI work, but some coordination tasks are routine.",1,9ca9f5e9bc3f
+0.02,0.35,"Sales-focused ISP posting; no AI/data-science duties mentioned. Some sales/admin tasks automatable, but human selling remains central.",1,5cd3ab0c3a55
+0.01,0.78,"Retail receiving, inventory verification, and freight handling are repetitive; no AI, ML, or data-science tasks mentioned.",1,d9099f71cf65
+0.03,0.46,"Customer-facing insurance service role using standard software; little AI/data-science work, but some repetitive service tasks are automatable.",1,3884438190
+0.02,0.72,"Service desk routing, monitoring, communication, and documentation are structured, repetitive tasks; no explicit AI or data-science work mentioned.",1,3904935459
+0.02,0.18,"Field inspections, risk surveys, and client interaction are hands-on, varied, and judgment-based; no AI or data-science duties mentioned.",1,3904722294
+0.04,0.44,"Claims adjusting uses judgment, investigation, negotiation, and legal evidence; little direct AI or data-science work mentioned.",1,3900947165
+0.15,0.12,"Senior strategic technology/product leadership; mentions platform delivery, not AI/ML specifically, and work is nonroutine, cross-functional, managerial.",1,3884919161
+0.33,0.18,"Data-focused transformation leadership, process/system design, and stakeholder coordination; little explicit AI/ML, low routine-task automability.",1,3898162867
+0.02,0.46,"Auto appraiser role; no AI/ML duties mentioned. Some inspection/documentation tasks are routine, but field judgment limits automation.",1,3901357011
+0.02,0.34,"Healthcare sales role with training and relationship-building; little AI/data work, but some outreach and admin tasks are automatable.",1,3905831703
+0.04,0.18,"PeopleSoft enterprise software development role; no AI/ML mentioned, and duties require custom analysis, collaboration, and implementation.",1,3904932799
+0.09,0.2,"Client consulting, strategy, project management, and relationship work; no explicit AI/data-science tasks; core duties are non-routine.",1,3904362586
+0.12,0.04,"Executive underwriting leadership role; mentions data-driven innovation, but core work is strategic, judgment-heavy, and relationship-based.",1,989f28775547
+0.04,0.12,"Construction risk consulting and safety management are human judgment-intensive; posting mentions no AI, ML, or data-science work.",1,7082edb64865
+0.03,0.28,"Store safety/security work involves human investigation and judgment; posting mentions no AI, and tasks are only partly routine.",1,eebf295833f6
+0.08,0.46,"Financial analyst role; no AI/ML mentioned. Analysis/reporting partly automatable, but judgment-heavy finance work remains.",1,6bb7bb0b6df7
+0.01,0.12,"Hands-on clinical evaluation and individualized treatment dominate; little AI/data-science use, limited automatable routine admin tasks.",1,2c2a88a53486
+0.03,0.27,"Asset management role in real estate; no AI/data-science duties shown, and work likely mixed analytical, coordination, judgment-based.",1,ff5ee1036c35
+0.1,0.38,"Business/claims coordination role; no explicit AI or analytics methods. Some reporting/workflow tasks automatable, but leadership and cross-functional coordination are not.",1,9b0b18d50910
+0.05,0.62,"Underwriter role implies judgment-based insurance evaluation; posting mentions no AI, but many underwriting tasks are structured and partly automatable.",1,de28f0b8dcc4
+0.11,0.66,"Pricing analysis using Excel/Power BI suggests basic analytics, not AI; reporting and routine analysis are fairly automatable.",1,3067fd54cadf
+0.73,0.16,"Mentions using advanced data and AI; managerial, client-facing, complex problem-solving tasks are not easily automated.",1,64494a1e89bc
+0.04,0.08,"Litigation and complex investigations require legal judgment; posting mentions no AI, ML, or data-science work.",1,3900066913
+0.08,0.46,"Administrative coordination and basic reporting; little AI/ML work, but many scheduling and tracking tasks are partially automatable.",1,3895210680
+0.03,0.26,"General legal associate duties; no AI/data-science tasks mentioned, but some research and drafting are partially automatable.",1,3884436762
+0.03,0.58,"Legal assistant duties implied; no AI/data tasks mentioned. Many clerical case-support tasks are structured, but legal judgment remains.",1,3889709873
+0.06,0.18,"IT architecture and deployment role; no AI/ML duties mentioned, and work is complex, customized, and leadership-heavy.",1,3901352958
+0.02,0.79,"Administrative e-filing and calendaring; no AI/ML tasks mentioned; many rule-based, repetitive processes are software-automatable.",1,3898164442
+0.02,0.18,"Litigation attorney role centers on legal writing and judgment; no AI/data tasks mentioned, and core work is not highly routine.",1,3901378560
+0.01,0.12,"Legal advisory role in executive compensation/benefits; requires judgment, client communication, and bespoke compliance analysis, not AI work.",1,3900956928
+0.04,0.57,Legal research and document handling are structured and partly automatable; posting shows no direct AI/ML work.,1,3901941349
+0.02,0.71,"Benefits administration and recordkeeping use databases, not AI; many clerical, repetitive tasks are highly automatable.",1,3905282953
+0.06,0.41,"Contract drafting, negotiation, tracking, and RFP support; little explicit AI use, some document-heavy tasks partly automatable.",1,fb5c7c7e1764
+0.03,0.33,"Postings describe project management, contracts, legal operations, and document editing; no explicit AI work, mixed routine and interpersonal tasks.",1,8d111a9d4ad3
+0.01,0.43,"Trial-support legal assistant role shows no AI use; work includes judgment-heavy, fast-paced coordination, though some administrative tasks are automatable.",1,677bda209fd1
+0.03,0.42,"Claims handling needs judgment, communication, and case management; posting mentions no AI, though parts are process-driven.",1,a2663ced045e
+0.01,0.12,"Litigation attorney posting shows no AI/data tasks; legal advocacy, judgment, and client-specific work are hard to automate.",1,42f5b13de03d
+0.02,0.12,"Senior legal counsel, policy, advising, representation, and drafting are non-AI-specific and require complex human judgment.",1,0cda90c0d09a
+0.02,0.18,"Family law litigation and client counseling; little AI/data work mentioned, and core tasks require judgment and advocacy.",1,9bbbe3ce12f1
+0.02,0.08,"Clinical psychological care, program management, and staff coordination; no AI/data-science duties, low routine automability.",1,33f12ee2e640
+0.28,0.24,"Legal procurement role; mentions helping function leverage AI, but core work is contract negotiation, judgment, compliance.",1,e9447938e48c
+0.02,0.18,"Associate attorney litigation role; legal judgment and advocacy dominate. Posting mentions recruiter AI, not job duties.",1,7be65e6756fe
+0.05,0.18,"Patent prosecution is specialized legal/technical judgment work; posting mentions no AI, and core tasks are not highly routine.",1,3905255318
+0.03,0.28,"Litigation paralegal work uses legal databases, not AI; duties require judgment, coordination, confidentiality, and in-person trial support.",1,3901636016
+0.06,0.09,"IP legal counsel, research, advocacy, and negotiation are human judgment-heavy; CS/EE background doesn’t imply AI work.",1,3886471794
+0.03,0.29,"Network installation, testing, troubleshooting, and coordination; no AI/ML duties. Some routine tasks, but substantial hands-on judgment required.",1,3903476353
+0.08,0.46,"IP systems/process support and data integrity work; no explicit AI/ML, but some workflow tasks are structured and automatable.",1,3905694001
+0.03,0.12,"IP attorney work is legal drafting, licensing, and judgment-heavy; posting mentions no AI or data-science tasks.",1,3890892681
+0.13,0.24,"Technical support for intelligence/electronic warfare systems; no explicit AI/ML tasks, and duties appear human-centered, varied, and service-oriented.",1,3905664643
+0.03,0.18,"Patent prosecution and legal due diligence in biotech; specialized judgment-heavy work, no AI/ML or data-science tasks mentioned.",1,3886459420
+0.02,0.08,"Senior law-partner work centers on client counsel, relationships, and business development, not AI; tasks are nonroutine and judgment-intensive.",1,3884921825
+0.07,0.06,"Patent litigation attorney role; legal advocacy and analysis, no AI duties stated, highly nonroutine judgment work.",1,3895484767
+0.01,0.07,"Therapy role emphasizes human compassion, cultural sensitivity, and client partnership; no AI, ML, or data-science duties mentioned.",1,1b441c5a8082
+0.09,0.18,"Alliance marketing/partnership role emphasizes strategy, relationships, leadership; little explicit AI use and low routine-task automability.",1,65142982cc75
+0.02,0.46,"Retail sales/customer service role; no AI duties mentioned. Some checkout/returns tasks automatable, but customer interaction remains central.",1,21f9ede35e3f
+0.02,0.42,"Customer-facing optometric support and preliminary testing; little AI/data work, but some routine admin tasks are automatable.",1,7e14d75dc4d6
+0.02,0.76,"Administrative PBM support with daily tasks/projects; no AI/data-science duties mentioned, and much support work is routine.",1,c9b651b87570
+0.06,0.38,"Credit analysis centers on judgment, risk balancing, and relationship-building; little explicit AI, only some potentially automatable analysis tasks.",1,0cd5fff671a0
+0.03,0.12,"Senior ERISA attorney role centers on legal judgment, client counseling, and agency representation, not AI; core work is not routine.",1,6ab5e150663b
+0.12,0.23,"Senior consulting, liaison, and strategy role; no explicit AI/data-science work, and core tasks require human judgment.",1,0f114d3c4c99
+0.82,0.64,Query vetting/data annotation likely supports AI workflows; labeling is repetitive but still needs human judgment and language nuance.,1,d5d318a4e232
+0.03,0.12,"Patent prosecution in life sciences is specialized legal writing and analysis; little explicit AI use, low routine automation potential.",1,b7536269704c
+0.11,0.24,"Focuses on process improvement, Lean/Six Sigma, and leadership; some data analysis, but little explicit AI and nonroutine work.",1,3889717206
+0.94,0.18,"Posting explicitly mentions integrating ML, bioinformatics pipelines, and collaboration with ML teams; research-heavy, nonroutine scientific work.",1,3904709960
+0.99,0.18,"Data Scientist/Statistician intern on Data Science & Statistics team; analytical, research-oriented work is AI-related but not easily automated.",1,3898177352
+0.04,0.14,"Pharmaceutical company description only; no job duties shown, and nothing indicates AI work or highly routine automatable tasks.",1,3884435831
+0.19,0.12,"Chemistry role uses data and in silico tools, but core work is experimental, creative, and non-routine.",1,3906235373
+0.03,0.28,"Procurement leadership, negotiations, supplier management, and cross-functional coordination; little AI/data-science content, many non-routine interpersonal tasks.",1,3901392428
+0.04,0.18,"Medical oversight, judgment, safety/regulatory assessment; little explicit AI/data-science work; core tasks are expert, non-routine, communication-heavy.",1,3901348665
+0.02,0.72,"Warehouse handling, inspections, labeling, counts, and inventory entry are routine; no AI, ML, or data-science duties mentioned.",1,3885842845
+0.06,0.22,"ERP functional lead designing workflows and solutions; little explicit AI/data-science work, and tasks require human judgment.",1,3884441210
+0.01,0.72,"Retail cashier role; no AI/data duties mentioned. Many checkout tasks are routine, but customer interaction still matters.",1,3905325938
+0.12,0.28,"Sales/account management role in genomics services; mentions bioinformatics, but core tasks are relationship-driven and nonroutine.",1,9e0f13a82579
+0.12,0.38,"Forensic evidence maintenance follows SOPs; little explicit AI use, but some routine lab handling is partly automatable.",1,5c52727a5ef4
+0.01,0.58,"Restaurant cleaning/washing role shows no AI use; many repetitive tasks, but physical dexterity and on-site work limit automation.",1,c74b60db76f0
+0.08,0.34,"Field/environmental sampling and documentation; little AI/ML mention, but some data collection/reporting tasks are somewhat routine.",1,ffb1cb8cecae
+0.03,0.22,"Sales/business development in commercial roofing; relationship-building and closing deals are human-centric, with little explicit AI or routine automation.",1,72e7c76e667e
+0.03,0.22,"Construction QA/QC inspection and coordination role; little AI/data-science content, with physical site oversight limiting automation.",1,939f6ef9d1d8
+0.03,0.04,"Experimental quantum-materials postdoc; lab synthesis, characterization, and idea development, not AI/data-science or routine automatable tasks.",1,fd880adbac56
+0.02,0.08,"Generic engineering-firm overview only; no AI/data duties, and core consulting/engineering work appears nonroutine and hard to automate.",1,90e57c7d1ebc
+0.08,0.14,"Analytical sciences biopharma rotation role; little evidence of AI/data-science work, and core scientific tasks are specialized, not routine.",1,3df7a7c935b9
+0.08,0.18,"Policy and portfolio analysis role; complex advisory, investment assessment, and executive engagement, with little explicit AI or routine automation.",1,c26a66a023aa

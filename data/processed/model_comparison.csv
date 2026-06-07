@@ -1,0 +1,8 @@
+Model,Task,Test R²,Test RMSE,Test AUC,Test F1
+OLS (HC3),Regression,0.0393,0.00162,—,—
+LightGBM,Regression,0.0792,0.001586,—,—
+"Logistic (HC3, dense only)",Classification,—,—,0.6985,0.0192
+LightGBM (dense only),Classification,—,—,0.6865,0.0
+Logistic + TF-IDF(2000),Classification,—,—,0.9011,0.6123
+LightGBM + TF-IDF(2000),Classification,—,—,0.9177,0.6961
+Ensemble (LGB + Logit) + TFIDF,Classification,—,—,0.9166,0.6948

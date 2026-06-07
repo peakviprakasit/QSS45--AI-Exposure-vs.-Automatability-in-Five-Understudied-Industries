@@ -1,0 +1,101 @@
+p_exposure,p_automatable,rationale,raw_ok,job_id
+0.04,0.71,"No AI/ML content; tasks are routine paperwork, data entry, and document handling, easily automated.",1,3906202183
+0.05,0.7,No AI/ML duties; routine manual lab tasks suggest high automation potential.,1,3905254228
+0.04,0.18,"Managerial maintenance role, no AI/ML mention; tasks involve supervision, not routine, low automation risk.",1,3895550294
+0.07,0.25,"No AI/ML mentions; job centers on judgment, client relations, low routine automation potential.",1,3906200470
+0.09,0.24,"Role focuses on sales & market analysis; no AI work, tasks require human interaction, low automation risk.",1,3888821714
+0.07,0.45,"Logistics coordination, no AI/ML mention; tasks routine but involve judgment and communication.",1,3905299409
+0.04,0.18,"No AI/ML mention; tasks require human relationship building, on‑site visits, and nuanced judgment.",1,3903475910
+0.02,0.13,"No AI/ML mention; role requires complex clinical judgment, low routine automation potential.",1,3889759495
+0.05,0.2,"Agronomist duties are field‑focused and advisory; no AI work mentioned; tasks require judgment, low automation risk.",1,3900942928
+0.05,0.34,"No AI/ML mentioned; tasks are physical monitoring and maintenance, partly automatable but require human intervention.",1,3905854526
+0.04,0.32,"No AI/ML duties mentioned; tasks are mainly manual inspections and compliance, somewhat routine but not fully automatable.",1,9f3dae60136c
+0.02,0.42,"No AI mention; cooking is routine but requires manual skill, modest automation potential.",1,351a84addf7f
+0.08,0.22,"Managerial, no AI/ML mention; tasks need judgment and coordination, not routine automation.",1,8af56e0e8b7e
+0.07,0.42,"No AI/ML mentioned; role focuses on client interaction and cash handling, moderately routine but human‑centric.",1,eea3867f79cf
+0.05,0.15,"Sales territory role, no AI mention; tasks require human interaction, low automation risk.",1,7d8bbd5f8f5c
+0.04,0.42,"No AI/ML duties; tasks are routine service and inventory work, partly automatable but still need human interaction.",1,e0f606d1a2f9
+0.07,0.18,"No AI/ML mention; role needs expert, non‑routine environmental remediation judgment.",1,e094f6a71469
+0.07,0.22,"No AI/ML tasks mentioned; role is supervisory and coordination, not highly routine.",1,9ca9f5e9bc3f
+0.07,0.32,"No AI/ML mention; sales tasks involve human interaction, some routine parts but not fully automatable.",1,5cd3ab0c3a55
+0.02,0.35,"No AI mention; physical, routine tasks may be automatable, but human handling needed.",1,d9099f71cf65
+0.07,0.45,"Mostly routine client service; little mention of AI/ML, but many repetitive tasks could be automated.",1,3884438190
+0.04,0.38,"No AI/ML duties; routine triage, routing, and communication tasks could be partially automated.",1,3904935459
+0.04,0.13,"No AI/ML duties mentioned; job requires physical inspections, expert judgment, and client interaction.",1,3904722294
+0.04,0.34,Adjuster work requires human judgment and investigation; limited AI use but some routine claim processing.,1,3900947165
+0.09,0.14,"Senior manager role; strategic, design, partnership tasks; no AI/ML mention; work is high-level, non‑routine.",1,3884919161
+0.12,0.14,"Management of data transformation, no AI/ML mention; high-level, strategic tasks not routine.",1,3898162867
+0.04,0.18,"No AI/ML mention; role requires inspections and judgment, not routine, highly manual tasks.",1,3901357011
+0.04,0.71,No AI/ML mentioned; sales outreach tasks are routine and increasingly automatable.,1,3905831703
+0.07,0.26,"No AI/ML keywords; role needs custom design, analysis, and collaboration, limiting routine automation.",1,3904932799
+0.12,0.14,"Consulting, client strategy work; no AI/ML mention and tasks are non‑routine, high‑skill.",1,3904362586
+0.15,0.1,"Senior underwriting role; mentions data-driven innovation but no AI/ML work; tasks are judgment-based, not routine.",1,989f28775547
+0.04,0.14,"No AI/ML terms; work demands expert judgment, client interaction, not routine.",1,7082edb64865
+0.08,0.22,"No AI/ML duties mentioned; tasks require human judgment, limited routine automation.",1,eebf295833f6
+0.04,0.46,"No AI/ML mentioned; financial analysis tasks somewhat routine, partly automatable.",1,6bb7bb0b6df7
+0.04,0.22,"No AI/ML mention; tasks require human assessment, device fabrication, and interpersonal care, limiting automation.",1,2c2a88a53486
+0.08,0.32,"Real‑estate asset role, minimal AI/ML mention; some routine reporting but core decisions need human judgment.",1,ff5ee1036c35
+0.05,0.2,"No AI/ML tasks mentioned; role involves coordination and analysis, not highly routine.",1,9b0b18d50910
+0.04,0.42,"No AI/ML mention; underwriting involves judgment, some routine tasks could be automated.",1,de28f0b8dcc4
+0.15,0.62,"Job focuses on Excel/Power BI pricing analysis; no AI/ML mention, routine data work could be automated.",1,3067fd54cadf
+0.52,0.12,"Mentions AI tools but focus on consulting, strategy, client interaction; low routine automation potential.",1,64494a1e89bc
+0.02,0.1,"Litigation attorney duties are non‑AI, complex, non‑routine; low automation risk.",1,3900066913
+0.12,0.46,"Mostly admin/reporting; limited AI use, some routine tasks could be automated but need human judgment.",1,3895210680
+0.07,0.32,"No AI/ML mention; tasks require judgement, some routine aspects but not fully automatable.",1,3884436762
+0.04,0.37,"No AI mention; tasks are mostly admin/legal work, some routine but require judgment.",1,3889709873
+0.07,0.25,"No AI/ML mentioned; role focuses on architecture, deployment, and legal DMS, high-skill, low automation.",1,3901352958
+0.04,0.62,No AI duties; routine filing and rule checks amenable to RPA.,1,3898164442
+0.02,0.08,"No AI/ML duties mentioned; litigation work is complex, non‑routine, low automation risk.",1,3901378560
+0.02,0.12,"No AI/ML duties; legal analysis and drafting are complex, non‑routine tasks.",1,3900956928
+0.05,0.42,Legal support tasks; no AI work; moderate routine tasks may be automated.,1,3901941349
+0.04,0.62,No AI/ML mention; many routine admin tasks could be handled by HR software or bots.,1,3905282953
+0.12,0.27,"No AI/ML mention; contract work requires judgment, not highly routine.",1,fb5c7c7e1764
+0.04,0.22,"No AI/ML tasks mentioned; roles require complex judgment and coordination, limiting automation.",1,8d111a9d4ad3
+0.04,0.45,"Role focuses on trial support, not AI; tasks are routine but need judgment, giving moderate automation risk.",1,677bda209fd1
+0.04,0.32,"Claims work is manual judgment, no AI mention; routine aspects modestly automatable.",1,a2663ced045e
+0.02,0.15,"No AI/ML mention; attorney work requires judgment and advocacy, not routine enough for full automation.",1,42f5b13de03d
+0.04,0.12,"Legal counsel role, no AI/ML mention; tasks require judgment, low routine automation potential.",1,0cda90c0d09a
+0.02,0.25,No AI/ML mentioned; legal judgment tasks limit automation despite some routine elements.,1,9bbbe3ce12f1
+0.07,0.12,"No AI/ML mention; tasks require complex clinical judgment and human interaction, not routine.",1,33f12ee2e640
+0.22,0.34,"Legal drafting/negotiation role, minimal AI work; some routine tasks could be automated, but requires judgment.",1,e9447938e48c
+0.04,0.22,"Legal associate duties involve judgment; posting mentions AI only for recruiter, not job tasks.",1,7be65e6756fe
+0.04,0.09,"No AI/ML duties; legal analysis and drafting are high-skill, non‑routine tasks.",1,3905255318
+0.07,0.23,"No AI/ML work described; tasks need legal judgment, travel, and confidential handling, limiting automation.",1,3901636016
+0.08,0.22,"Legal IP work rarely uses AI; tasks are complex, non‑routine, limiting automation potential.",1,3886471794
+0.05,0.27,"No AI/ML duties; requires expert troubleshooting and coordination, not highly routine.",1,3903476353
+0.08,0.32,"No AI/ML mention; tasks require judgment, troubleshooting, and process design, not highly routine.",1,3905694001
+0.04,0.22,"No AI mention; legal work is complex, not routine, but some drafting could be automated.",1,3890892681
+0.15,0.22,"Support role for intelligence systems, no explicit AI work; tasks involve specialized, non‑routine analysis and security.",1,3905664643
+0.07,0.18,"No AI/ML duties mentioned; tasks require expert legal/scientific judgment, not routine.",1,3886459420
+0.04,0.08,"Partner role focuses on expertise, client relations, strategy; minimal AI work, low routine tasks for automation.",1,3884921825
+0.12,0.07,"Patent litigation attorney; no AI work; tasks require expert judgment, not routine.",1,3895484767
+0.04,0.09,"Therapy focuses on personal interaction; no AI tasks mentioned, and duties are non‑routine, high‑skill human work.",1,1b441c5a8082
+0.04,0.14,"No AI/ML mentions; tasks are strategic, relationship‑focused, not routine.",1,65142982cc75
+0.04,0.36,"Retail sales job, no AI work; routine customer service tasks are moderately automatable.",1,21f9ede35e3f
+0.04,0.32,"No AI/ML mention; tasks are customer‑facing, physical, but involve routine testing that could be partly automated.",1,7e14d75dc4d6
+0.08,0.53,"No AI/ML mention; tasks are routine administrative and data processing, some strategic work reduces full automation.",1,c9b651b87570
+0.07,0.35,"No AI/ML mention; credit analysis needs judgment and relationships, modest automation potential.",1,0cd5fff671a0
+0.04,0.08,"No AI/ML tasks mentioned; legal analysis and client work are high‑skill, non‑routine.",1,6ab5e150663b
+0.12,0.15,"No AI/ML mention; senior consulting, complex judgment tasks—not routine, low automation risk.",1,0f114d3c4c99
+0.52,0.71,Annotation work supports AI training (exposure); tasks are repetitive and could be largely automated.,1,d5d318a4e232
+0.12,0.15,"Role focuses on legal drafting and biotech expertise; minimal AI work, tasks highly judgment‑based.",1,b7536269704c
+0.22,0.14,"Focus on lean/ Six Sigma and process leadership; minimal AI mention, tasks non‑routine and judgment‑heavy.",1,3889717206
+0.87,0.12,"Role builds pipelines, integrates ML; complex, creative work, not routine enough for automation.",1,3904709960
+0.86,0.28,"Intern role centers on data science/ML work (high exposure); tasks require analysis and creativity, low routine automation.",1,3898177352
+0.04,0.08,"Posting lacks AI/ML terms; pharma role involves specialized, non‑routine work.",1,3884435831
+0.33,0.18,"Mentions in silico tools and data-driven design, little routine lab work; limited AI use, low automation risk.",1,3906235373
+0.07,0.18,"No AI/ML mentioned; role demands strategic negotiation and leadership, limiting current automation potential.",1,3901392428
+0.07,0.15,"No AI/ML mentioned; role requires expert medical judgment, limiting automation despite some data review.",1,3901348665
+0.04,0.27,"No AI/ML tasks; routine physical inventory work, some automation potential but human oversight required.",1,3885842845
+0.04,0.22,"ERP functional lead focuses on design, consulting, not AI; tasks are strategic, not highly routine.",1,3884441210
+0.02,0.71,"No AI/ML mentioned; cashier duties are routine, easily automated.",1,3905325938
+0.15,0.2,"Sales/account management role, limited AI work; core tasks require human relationship building, low automation.",1,9e0f13a82579
+0.1,0.15,"Lab evidence handling, no AI/ML mentioned; tasks manual, low routine automation potential.",1,5c52727a5ef4
+0.02,0.73,No AI work mentioned; tasks are routine physical cleaning that machines could replace.,1,c74b60db76f0
+0.07,0.32,"No AI/ML mention; work involves field sampling, lab analysis, documentation, moderately routine but not fully automatable.",1,ffb1cb8cecae
+0.07,0.22,"No AI/ML mention; sales tasks require human judgment, low routine.",1,72e7c76e667e
+0.04,0.22,"No AI/ML mention; tasks involve physical inspection and judgment, low automation risk but some routine elements.",1,939f6ef9d1d8
+0.05,0.12,"No AI/ML referenced; work involves experimental, creative research, not routine tasks.",1,fd880adbac56
+0.07,0.22,"No AI/ML mentioned; tasks require expert design and client interaction, not routine.",1,90e57c7d1ebc
+0.09,0.24,"Posting lacks AI/ML terms; focuses on experimental, leadership work that isn’t highly routine.",1,3df7a7c935b9
+0.08,0.12,"No AI/ML mention; tasks involve complex judgment, policy advice, senior interaction, not routine.",1,c26a66a023aa
