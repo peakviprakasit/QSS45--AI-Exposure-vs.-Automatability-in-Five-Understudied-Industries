@@ -320,7 +320,7 @@ export default function Research() {
         num="03"
         eyebrow="The method"
         title="One labeler, two constructs"
-        sub="A transparent pipeline from posting to comparison — validated, not assumed."
+        sub="A transparent pipeline from posting to comparison (validated)"
       >
         <p className="prose reveal">
           A supervised baseline showed the signal lives in the job description <em>text</em>: structured
