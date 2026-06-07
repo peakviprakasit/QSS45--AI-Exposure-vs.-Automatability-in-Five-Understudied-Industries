@@ -7,12 +7,12 @@ How job-description language has shifted across **five under-studied industries*
 **Sources:**
 - LinkedIn scrape (May 2026) via `selenium` + `undetected-chromedriver` → ~5,200 postings
 - Kaggle "LinkedIn Job Postings 2024" archive (April 2024) → ~8,600 postings (after industry filter)
-- Pooled corpus: **~13,870 postings × 14 columns**
+- Pooled, de-duplicated corpus: **12,487 postings × 14 columns**
 
 **Outcome variables:**
 - `ai_term_freq` (continuous) — count of distinct AI flags / word count, modelled with OLS + HC3 robust SEs
 - `ai_exposure_binary` (binary) — 1 if posting matches ≥1 AI flag, modelled with logistic + LightGBM (+ TF-IDF)
-- **`exposure` & `automatability`** (two independent 0–1 zero-shot scores, notebooks 05–06) — read directly from posting text by `bart-large-mnli` (BERT) and `gpt-5.4-mini` (GPT); the project's headline **two-construct** measure
+- **`exposure` & `automatability`** (two independent 0–1 zero-shot scores, notebooks 05–06) — read directly from posting text by a cloud GPT labeler (`gpt-5.4` for exposure, `gpt-5.4-mini` for automatability), plus a zero-shot `bart-large-mnli` (BERT) cross-check; the project's headline **two-construct** measure
 
 ---
 
@@ -28,6 +28,9 @@ QSS45_Final_Project/
 │   ├── 04_modeling.ipynb
 │   ├── 05_bert_analysis.ipynb
 │   ├── 06_gpt_vs_bert_comparison.ipynb
+│   ├── 07_labeler_experiments.ipynb
+│   ├── 08_final_results_2024_2026.ipynb
+│   ├── 09_interactive_figures.ipynb
 │   ├── 99_view_data.ipynb            # Optional: dump CSVs into a single .xlsx
 │   └── utils.py                       # Shared constants + functions
 ├── data/
@@ -37,7 +40,6 @@ QSS45_Final_Project/
 ├── output/
 │   ├── figures/                       # Static PNGs (paper) + interactive fig09_*.html (website)
 │   └── tables/                        # table08_*.csv result tables
-├── report/                            # PNAS LaTeX paper (final_report.tex + references.bib)
 ├── website/                           # React + Vercel public site (deliverable 3)
 ├── requirements.txt
 ├── .env.example                       # Template; copy to .env and fill in credentials
@@ -99,7 +101,7 @@ Every industry shows substantial growth; legal services and patent/IP fastest (c
 
 ### Two-construct result — AI exposure vs automatability (zero-shot labeling)
 
-Keyword incidence only counts AI *mentions*. To separate **whether a role involves AI** from **whether it could be automated**, the current full-corpus GPT artifact scores every posting on two independent 0–1 constructs with `gpt-5.4-mini`. Notebook 06 now audits that original labeler against BERT, other cached cloud models, ensembles, and trained supervised models on a Claude-drafted validation-audit set:
+Keyword incidence only counts AI *mentions*. To separate **whether a role involves AI** from **whether it could be automated**, a cloud GPT labeler scores each posting (stratified analysis sample, n = 2,614) on two independent 0–1 constructs (`gpt-5.4` for exposure, `gpt-5.4-mini` for automatability). Notebook 06 audits this labeler against BERT, other cached cloud models, ensembles, and trained supervised models on a Claude-drafted validation-audit set:
 
 - **Exposure rose, 2024 → 2026:** mean **0.061 → 0.098** (Welch *t* = 5.6, ***p* = 2.6×10⁻⁸**), concentrated in knowledge work (Patent/IP, Legal, Pharma); Farming and Insurance dip slightly.
 - **Automatability stayed flat:** **0.334 → 0.324** (*t* = −1.0, ***p* = 0.31**) — a genuine null, robust to the choice of labeler.
@@ -115,9 +117,9 @@ Keyword incidence only counts AI *mentions*. To separate **whether a role involv
 | OLS (HC3) regression — `ai_term_freq` | R² = 0.04 | — | — |
 | Logistic (HC3) — non-text features only | 0.70 | 0.18 | 0.02 |
 | LightGBM — non-text features only | 0.69 | 0.21 | 0.00 |
-| **LightGBM + TF-IDF** (with AI terms masked) | **0.89** | **0.71** | **0.65** |
+| **LightGBM + TF-IDF(2000)** | **0.918** | **0.71** | **0.696** |
 
-*(Models above predict the keyword DV `ai_exposure_binary`. The BERT and GPT **zero-shot labelers** in notebooks 05–06 are audited instead against the **Claude-drafted validation set** — the original `gpt-5.4-mini` run reaches exposure AUC ≈ 0.94 / F1 0.75 and automatability F1 0.61, while cached candidates score higher on the validation audit; see the two-construct result above.)*
+*(Models above predict the keyword DV `ai_exposure_binary`. The BERT and GPT **zero-shot labelers** in notebooks 05–06 are audited instead against the **Claude-drafted validation set** — the GPT labeler (`gpt-5.4` exposure, `gpt-5.4-mini` automatability) reaches exposure AUC ≈ 0.94 / F1 0.57 and automatability F1 0.61, while cached candidates score higher on the validation audit; see the two-construct result above.)*
 
 ---
 

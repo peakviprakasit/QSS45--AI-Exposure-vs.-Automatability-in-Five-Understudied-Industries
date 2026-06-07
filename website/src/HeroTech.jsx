@@ -1,11 +1,5 @@
 import React from 'react'
 
-// Dark "data-city" motif, Dartmouth palette. A deep 3D skyline of SIX rows that
-// recede front→back: FRONT rows are short (foreground), BACK rows are tall — so
-// the whole city is visible stepping up toward the horizon. Atmospheric haze
-// lightens toward the back on the RIGHT (the lit city); the LEFT stays dark
-// silhouette so the headline reads. Tall light-beams + network mesh + a globe
-// sit on the right. Deterministic; every bright element is right of `textEdge`.
 export default function HeroTech({ variant = 'hero' }) {
   const band = variant === 'band'
   const rnd = (i, s) => {
@@ -18,7 +12,7 @@ export default function HeroTech({ variant = 'hero' }) {
   const sf = band ? 0.66 : 1
   const mix = (a, b, t) =>
     `rgb(${Math.round(a[0] + (b[0] - a[0]) * t)},${Math.round(a[1] + (b[1] - a[1]) * t)},${Math.round(a[2] + (b[2] - a[2]) * t)})`
-  // tone ramps [far/back, near/front] for the lit RIGHT side and the dark LEFT side
+
   const FRONT = { R: [[48, 92, 68], [9, 27, 18]], L: [[24, 48, 35], [8, 23, 15]] }
   const ROOF = { R: [[68, 122, 94], [22, 58, 40]], L: [[32, 62, 46], [15, 40, 27]] }
   const SIDE = { R: [[30, 64, 46], [6, 19, 12]], L: [[16, 36, 25], [5, 16, 10]] }
@@ -44,7 +38,6 @@ export default function HeroTech({ variant = 'hero' }) {
     rows.push({ d, D, bs })
   }
 
-  // beams from right-side towers of the taller (back/mid) rows
   const beams = []
   rows.forEach((row) => {
     if (row.d > 0.55) return
@@ -121,7 +114,6 @@ export default function HeroTech({ variant = 'hero' }) {
         {lat.map((l, i) => <ellipse key={'la' + i} cx={gcx} cy={f1(l.y)} rx={f1(l.rx)} ry={f1(l.ry)} className="ht-arc" />)}
       </g>
 
-      {/* six receding 3D rows, drawn back(tall) → front(short) */}
       {rows.map((row, ri) => (
         <g key={'R' + ri}>
           {row.bs.map((b) => {
